@@ -1,0 +1,23 @@
+# Exclude IDE config settings
+/.eclipse
+/.idea
+/.vscode
+
+# Exclude build and libray directories
+/.phpunit.cache
+/build
+/vendor
+
+# Exclude all development tool configurations
+/*.cache
+/*.json
+/*.neon
+/*.phar
+/*.properties
+/*.tar
+/*.xml
+/*.yml
+/*.zip
+
+# Ensure composer.json is not excluded
+!composer.json
